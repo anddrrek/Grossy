@@ -63,18 +63,34 @@
 		550888C3222BF2C30030ABB6 /* Grossy */ = {
 			isa = PBXGroup;
 			children = (
+				550888E0222BF3870030ABB6 /* Storyboards */,
+				550888DF222BF3750030ABB6 /* Resources */,
 				550888C4222BF2C30030ABB6 /* AppDelegate.h */,
 				550888C5222BF2C30030ABB6 /* AppDelegate.m */,
 				550888C7222BF2C30030ABB6 /* ViewController.h */,
 				550888C8222BF2C30030ABB6 /* ViewController.m */,
-				550888CA222BF2C30030ABB6 /* Main.storyboard */,
-				550888D0222BF2C40030ABB6 /* Assets.xcassets */,
-				550888D2222BF2C40030ABB6 /* LaunchScreen.storyboard */,
-				550888D5222BF2C40030ABB6 /* Info.plist */,
-				550888D6222BF2C40030ABB6 /* main.m */,
 				550888CD222BF2C30030ABB6 /* Grossy.xcdatamodeld */,
 			);
 			path = Grossy;
+			sourceTree = "<group>";
+		};
+		550888DF222BF3750030ABB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				550888D6222BF2C40030ABB6 /* main.m */,
+				550888D2222BF2C40030ABB6 /* LaunchScreen.storyboard */,
+				550888D5222BF2C40030ABB6 /* Info.plist */,
+				550888D0222BF2C40030ABB6 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		550888E0222BF3870030ABB6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				550888CA222BF2C30030ABB6 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
