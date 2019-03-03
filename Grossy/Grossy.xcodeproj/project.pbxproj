@@ -24,6 +24,8 @@
 		55088903222BF4040030ABB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55088902222BF4040030ABB6 /* Assets.xcassets */; };
 		55088906222BF4040030ABB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55088904222BF4040030ABB6 /* LaunchScreen.storyboard */; };
 		55088909222BF4040030ABB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55088908222BF4040030ABB6 /* main.m */; };
+		55088911222BF5FA0030ABB6 /* GYNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5508890F222BF5FA0030ABB6 /* GYNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55088912222BF5FA0030ABB6 /* GYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 55088910222BF5FA0030ABB6 /* GYNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		55088905222BF4040030ABB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55088907222BF4040030ABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55088908222BF4040030ABB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5508890F222BF5FA0030ABB6 /* GYNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYNavigationBar.h; sourceTree = "<group>"; };
+		55088910222BF5FA0030ABB6 /* GYNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,7 @@
 		550888E7222BF3C60030ABB6 /* Grossy_UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				5508890E222BF5C70030ABB6 /* Views */,
 				550888E8222BF3C60030ABB6 /* Grossy_UIKit.h */,
 				550888E9222BF3C60030ABB6 /* Info.plist */,
 			);
@@ -191,6 +196,23 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		5508890E222BF5C70030ABB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55088913222BF5FF0030ABB6 /* NavigationBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55088913222BF5FF0030ABB6 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				55088910222BF5FA0030ABB6 /* GYNavigationBar.m */,
+				5508890F222BF5FA0030ABB6 /* GYNavigationBar.h */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -198,6 +220,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55088911222BF5FA0030ABB6 /* GYNavigationBar.h in Headers */,
 				550888EA222BF3C60030ABB6 /* Grossy_UIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55088912222BF5FA0030ABB6 /* GYNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

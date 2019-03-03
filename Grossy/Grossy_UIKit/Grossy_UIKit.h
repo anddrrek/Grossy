@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double Grossy_UIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char Grossy_UIKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Grossy_UIKit/PublicHeader.h>
+#import <Grossy_UIKit/GYNavigationBar.h>
 
 
