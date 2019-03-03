@@ -18,6 +18,12 @@
 		550888EA222BF3C60030ABB6 /* Grossy_UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 550888E8222BF3C60030ABB6 /* Grossy_UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550888ED222BF3C60030ABB6 /* Grossy_UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550888E6222BF3C60030ABB6 /* Grossy_UIKit.framework */; };
 		550888EE222BF3C60030ABB6 /* Grossy_UIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 550888E6222BF3C60030ABB6 /* Grossy_UIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		550888FB222BF4040030ABB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550888FA222BF4040030ABB6 /* AppDelegate.m */; };
+		550888FE222BF4040030ABB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550888FD222BF4040030ABB6 /* ViewController.m */; };
+		55088901222BF4040030ABB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550888FF222BF4040030ABB6 /* Main.storyboard */; };
+		55088903222BF4040030ABB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55088902222BF4040030ABB6 /* Assets.xcassets */; };
+		55088906222BF4040030ABB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55088904222BF4040030ABB6 /* LaunchScreen.storyboard */; };
+		55088909222BF4040030ABB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55088908222BF4040030ABB6 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,16 @@
 		550888E6222BF3C60030ABB6 /* Grossy_UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Grossy_UIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		550888E8222BF3C60030ABB6 /* Grossy_UIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grossy_UIKit.h; sourceTree = "<group>"; };
 		550888E9222BF3C60030ABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550888F7222BF4040030ABB6 /* Grossy_UIKit_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grossy_UIKit_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		550888F9222BF4040030ABB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		550888FA222BF4040030ABB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		550888FC222BF4040030ABB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		550888FD222BF4040030ABB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55088900222BF4040030ABB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55088902222BF4040030ABB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55088905222BF4040030ABB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55088907222BF4040030ABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55088908222BF4040030ABB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		550888F4222BF4040030ABB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +110,7 @@
 				550888DD222BF3160030ABB6 /* .gitignore */,
 				550888C3222BF2C30030ABB6 /* Grossy */,
 				550888E7222BF3C60030ABB6 /* Grossy_UIKit */,
+				550888F8222BF4040030ABB6 /* Grossy_UIKit_Demo */,
 				550888C2222BF2C30030ABB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +120,7 @@
 			children = (
 				550888C1222BF2C30030ABB6 /* Grossy.app */,
 				550888E6222BF3C60030ABB6 /* Grossy_UIKit.framework */,
+				550888F7222BF4040030ABB6 /* Grossy_UIKit_Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +165,30 @@
 				550888E9222BF3C60030ABB6 /* Info.plist */,
 			);
 			path = Grossy_UIKit;
+			sourceTree = "<group>";
+		};
+		550888F8222BF4040030ABB6 /* Grossy_UIKit_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5508890D222BF40E0030ABB6 /* Resources */,
+				550888F9222BF4040030ABB6 /* AppDelegate.h */,
+				550888FA222BF4040030ABB6 /* AppDelegate.m */,
+				550888FC222BF4040030ABB6 /* ViewController.h */,
+				550888FD222BF4040030ABB6 /* ViewController.m */,
+				550888FF222BF4040030ABB6 /* Main.storyboard */,
+			);
+			path = Grossy_UIKit_Demo;
+			sourceTree = "<group>";
+		};
+		5508890D222BF40E0030ABB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55088902222BF4040030ABB6 /* Assets.xcassets */,
+				55088904222BF4040030ABB6 /* LaunchScreen.storyboard */,
+				55088907222BF4040030ABB6 /* Info.plist */,
+				55088908222BF4040030ABB6 /* main.m */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +242,23 @@
 			productReference = 550888E6222BF3C60030ABB6 /* Grossy_UIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		550888F6222BF4040030ABB6 /* Grossy_UIKit_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5508890A222BF4040030ABB6 /* Build configuration list for PBXNativeTarget "Grossy_UIKit_Demo" */;
+			buildPhases = (
+				550888F3222BF4040030ABB6 /* Sources */,
+				550888F4222BF4040030ABB6 /* Frameworks */,
+				550888F5222BF4040030ABB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grossy_UIKit_Demo;
+			productName = Grossy_UIKit_Demo;
+			productReference = 550888F7222BF4040030ABB6 /* Grossy_UIKit_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +272,9 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					550888E5222BF3C60030ABB6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					550888F6222BF4040030ABB6 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -225,6 +294,7 @@
 			targets = (
 				550888C0222BF2C30030ABB6 /* Grossy */,
 				550888E5222BF3C60030ABB6 /* Grossy_UIKit */,
+				550888F6222BF4040030ABB6 /* Grossy_UIKit_Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -248,6 +318,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		550888F5222BF4040030ABB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55088906222BF4040030ABB6 /* LaunchScreen.storyboard in Resources */,
+				55088903222BF4040030ABB6 /* Assets.xcassets in Resources */,
+				55088901222BF4040030ABB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -266,6 +346,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550888F3222BF4040030ABB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550888FE222BF4040030ABB6 /* ViewController.m in Sources */,
+				55088909222BF4040030ABB6 /* main.m in Sources */,
+				550888FB222BF4040030ABB6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +382,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				550888D3222BF2C40030ABB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		550888FF222BF4040030ABB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55088900222BF4040030ABB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55088904222BF4040030ABB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55088905222BF4040030ABB6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -501,6 +607,38 @@
 			};
 			name = Release;
 		};
+		5508890B222BF4040030ABB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Grossy_UIKit_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anddrrek.Grossy-UIKit-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5508890C222BF4040030ABB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Grossy_UIKit_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anddrrek.Grossy-UIKit-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -527,6 +665,15 @@
 			buildConfigurations = (
 				550888F0222BF3C60030ABB6 /* Debug */,
 				550888F1222BF3C60030ABB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5508890A222BF4040030ABB6 /* Build configuration list for PBXNativeTarget "Grossy_UIKit_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5508890B222BF4040030ABB6 /* Debug */,
+				5508890C222BF4040030ABB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
